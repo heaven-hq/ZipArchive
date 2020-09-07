@@ -10,8 +10,8 @@ matrix:
 
     - osx_image: xcode12
       env: OSX_IMAGE="xcode12"
-           SDK="iphonesimulator14.0"
-           DEVICE="iPhone SE (2nd generation)" # newest on travis for iOS 14.x
+           SDK="iphonesimulator"
+           DEVICE="iPhone SE (2nd generation) (14.0)" # newest on travis for iOS 14.x
 
 before_install:
   - if [ ${SDK} = "macosx" ]; then
