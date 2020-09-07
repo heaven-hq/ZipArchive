@@ -6,7 +6,7 @@ matrix:
     - osx_image: xcode12.0
       env: OSX_IMAGE="xcode12"
            SDK="appletvsimulator"
-           DEVICE="Apple TV 4K (at 1080p) (13.3)" # newest on travis for tvOS 14.x          
+           DEVICE="Apple TV 4K (at 1080p) (com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-1080p)" # newest on travis for tvOS 14.x          
            
     - osx_image: xcode11.3
       env: OSX_IMAGE="xcode11.3"
