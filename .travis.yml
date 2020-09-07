@@ -5,8 +5,8 @@ matrix:
   include:
     - osx_image: xcode12
       env: OSX_IMAGE="xcode12"
-           SDK="appletvsimulator14.0"
-           DEVICE="Apple TV 4K (at 1080p) (13.3)" # newest on travis for tvOS 14.x          
+           SDK="appletvsimulator"
+           DEVICE="Apple TV 4K (at 1080p) (14.0)" # newest on travis for tvOS 14.x          
 
     - osx_image: xcode12
       env: OSX_IMAGE="xcode12"
