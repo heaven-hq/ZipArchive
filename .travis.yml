@@ -3,15 +3,15 @@ podfile: Example/Podfile
 xcode_workspace: Example/ZipArchiveExample.xcworkspace
 matrix:
   include:
-    - osx_image: xcode11.3
-      env: OSX_IMAGE="xcode11.3"
+    - osx_image: xcode11.6
+      env: OSX_IMAGE="xcode11.6"
            SDK="appletvsimulator"
            DEVICE="Apple TV 4K (at 1080p) (13.4)" # newest on travis for tvOS 13.x  
 
     - osx_image: xcode11.6
       env: OSX_IMAGE="xcode11.6"
            SDK="iphonesimulator"
-           DEVICE="iPhone 11 Pro Max (13.3)" # newest on travis for iOS 13.x
+           DEVICE="iPhone 11 Pro Max (13.6)" # newest on travis for iOS 13.x
 
 before_install:
   - if [ ${SDK} = "macosx" ]; then
