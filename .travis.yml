@@ -23,7 +23,7 @@ matrix:
            SDK="macosx"
            DEVICE="OS X 10.11"
 
-    - osx_image: xcode12
+    - osx_image: xcode12.0
       env: OSX_IMAGE="xcode12"
            SDK="appletvsimulator"
            DEVICE="Apple TV 4K (at 1080p) (14)" # newest on travis for tvOS 14.x          
@@ -58,10 +58,10 @@ matrix:
            SDK="appletvsimulator"
            DEVICE="Apple TV 1080p (9.0)" # oldest for tvOS 9.x
 
-    - osx_image: xcode12
+    - osx_image: xcode12.0
       env: OSX_IMAGE="xcode12"
            SDK="iphonesimulator"
-           DEVICE="iPhone 11 Pro Max (14)" # newest on travis for iOS 14.x
+           DEVICE="iPhone SE (2nd generation)" # newest on travis for iOS 14.x
 
     - osx_image: xcode11.3
       env: OSX_IMAGE="xcode11.3"
